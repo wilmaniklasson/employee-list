@@ -1,0 +1,153 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  margin: 0.5em 0em;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-team {
+  background-color: #efefef;
+  color: #121212;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.form h2 {
+  margin: 0;
+}
+.form input {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.border-bottom {
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+  margin-bottom: 1px;
+}
+
+
+.delete-btn {
+  padding: 0.5em;
+  background-color: #c54135;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0.2em;
+}
+
+.alternate:nth-child(even) {
+	background-color: rgb(238, 232, 188);
+}
+
+.get-employees-btn {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.submit-btn {
+  padding: 0.5em;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.edit-btn {
+  padding: 0.5em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0.2em;
+}
+
+
+.save-btn {
+  padding: 0.5em;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0.2em;
+}
+
+.input-field {
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%; 
+  margin: 8px 0; 
+  transition: border-color 0.3s;
+}
+.constiner-change-Info{
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #ccc;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 2px;
+
+}
+.change-Info {
+  display: flex;
+  padding: 0.5em;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+  gap: 1em;
+}
+
+.save-btn {
+  padding: 0.5em;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0.2em;
+  height: 2.1em;
+  align-self: center;
+}
